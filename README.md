@@ -69,6 +69,7 @@ namespace Day26_Calender
                 
                 if (weekdaycount % 7 == 0)
                 {
+                    weekdaycount=0;
                     Console.WriteLine();
                 }
 
